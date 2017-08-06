@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+}
+
+.orange {
+    background: orange;
+    position: absolute;
+}
+
+.green {
+    background: green;
+    position: absolute;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+.large {
+    width: 400px;
+    height: 400px;
+}
+
+.green.medium {
+    width: 200px;
+    height: 300px;
+    top: 100px;
+    left: 760px;
+}
+
+.green.large {
+    left: 120px;
+}
+
+.green.large .orange.small:nth-child(1),
+.green.medium .orange.small:nth-child(1) {
+    left: -120px;
+}
+
+.green.large .orange.small:nth-child(2),
+.green.medium .orange.small:nth-child(2) {
+    bottom: 0;
+    left: -120px;
+}
+
+.green.large .orange.small:nth-child(3),
+.green.medium .orange.small:nth-child(3) {
+    right: -120px;
+}
+
+.green.large .orange.small:nth-child(4),
+.green.medium .orange.small:nth-child(4) {
+    bottom: 0;
+    right: -120px;
+}

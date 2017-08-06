@@ -1,0 +1,72 @@
+.container {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+header,
+aside,
+main,
+footer {
+    border: 1px solid black;
+    padding: 3% 3%;
+    margin-top: 1vh;
+}
+
+header {
+    width: 100%;
+    background-color: chocolate;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+}
+
+header,
+footer {
+    height: 14vh;
+}
+
+aside,
+main {
+    height: 68vh;
+}
+
+aside,
+main,
+footer {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+aside {
+    width: 25%;
+    background-color: burlywood;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+main {
+    width: 48%;
+    margin-left: 26%;
+    margin-right: 26%;
+    background-color: rosybrown;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: darkolivegreen;
+    margin-bottom: 1vh;
+}

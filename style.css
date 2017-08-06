@@ -1,0 +1,27 @@
+.container {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h1, p {
+    margin: 3%;
+    background-color: bisque;
+    width: 25%;
+}
+
+p {
+    font-weight: 700;
+    font-style: italic;
+}
+
+li {
+    margin: 1.5%;
+}
+

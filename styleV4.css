@@ -1,0 +1,55 @@
+#container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 3vh auto 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    float: none;
+    
+}
+
+.clr {
+    clear: both;
+    content: "";
+}
+
+div {
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+div:nth-of-type(1) {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+div:nth-of-type(2) {
+    margin-left: 26%;
+    background-color: darkolivegreen;
+    height: 26.5vh;
+    padding: 3%;
+}
+
+div:nth-of-type(4) {
+    width: 72%;
+    float: left;
+    background-color: darkolivegreen;
+    height: 26.5vh;
+    padding: 3%;
+    margin-top: 3vh;
+}
+
+div:nth-of-type(5) {
+    width: 25%;
+    margin-left: 75%;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+div:nth-of-type(7) {
+    background-image: url(porfolio1.png);
+    background-repeat: repeat-x;
+    margin-top: 3vh;
+}
